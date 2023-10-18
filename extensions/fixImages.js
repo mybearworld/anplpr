@@ -1,4 +1,3 @@
-// This file is not part of the original prototype.
 // @ts-check
 
 (() => {
