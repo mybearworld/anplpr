@@ -48,6 +48,8 @@
     if (!text) {
       return;
     }
+    // @ts-expect-error
+    Blockly.getMainWorkspace().clear();
     /** @type {HTMLUnknownElement} */
     // @ts-expect-error
     const dom = Blockly.Xml.textToDom(text);
