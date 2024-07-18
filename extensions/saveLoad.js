@@ -1,6 +1,10 @@
 // @ts-check
 
 (() => {
+  if (new URLSearchParams(location.search).has("noext")) {
+    return;
+  }
+
   const MENU_BAR_CLASS = "menu-bar_menu-bar_JcuHF";
   const MENU_ITEM_CLASS = "menu-bar_menu-item_2lssx";
   const MENU_ITEM_BUTTON_STYLES = /* css */ `
